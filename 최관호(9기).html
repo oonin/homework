@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HO SHOPPING</title>
+        <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&family=Nanum+Gothic&display=swap"
+              rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+              integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+              crossorigin="anonymous">
+
+        <style>  .big-font {
+            font-size: 20px
+        }
+
+        .small-font {
+            font-size: 10px
+        }
+
+        .gray-font {
+            color: darkgray
+        }
+
+        .font-1 {
+            font-family: 'Grenze Gotisch', cursive;
+        }
+
+        .font-2 {
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+
+
+        </style>
+
+        <style>
+
+            img {
+                display: block;
+                margin: 0px auto;
+            }
+
+            .btnho {
+                text-align: center
+            }
+
+        </style>
+
+        <script>
+            function order() {
+                alert('주문이 완료되었습니다.');
+            }
+
+        </script>
+    </head>
+
+
+    <body>
+
+
+        <div>
+
+            <div class="card" style="width: 500px; margin: auto; padding: 10px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOVZ0ZbxQsE8u2XTPM0FDL0iNwflMKnw89Lg&usqp=CAU"
+                     style="padding: 10px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title big-font">Gucci Sneakers Sale <span
+                            class="card-subtitle small-font">가격 : 1,000,000원</span></p>
+                    <p class="card-text small-font">이탈리아 명품 브랜드 구찌의 인기 신발 라인업 중 하나로 특별 세일 중에 있습니다. 어떤 스타일도 완벽하게 소화하는 구찌
+                        스니커즈와 함께
+                        올 여름 최고의 셀럽이
+                        되어 보세요~!</p>
+                    <p class="card-title big-font">주문하기</p>
+
+
+                    <div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-default">주문자이름</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                   aria-describedby="inputGroup-sizing-default">
+                        </div>
+
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="inputGroupSelect01">수량</label>
+                            </div>
+                            <select class="custom-select" id="inputGroupSelect01">
+                                <option selected>--수량을 선택하세요--</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-default">주소</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                   aria-describedby="inputGroup-sizing-default">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-default">전화번호</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                   aria-describedby="inputGroup-sizing-default">
+                        </div>
+
+                    </div>
+
+
+                    <div class="btnho">
+                        <button onclick="order()" type="button" class="btn btn-primary btn-lg">주문하기</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </body>
+</html>
